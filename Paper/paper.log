@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.21)  6 AUG 2026 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.7.21)  7 AUG 2026 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -487,57 +487,62 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip93
-) (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+) (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2026-05-21 v1.32 PDF bookmarks (HO)
+ (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2026-05-21 v1.32 bookmark driver for pdfTeX (HO)
+\BKM@id=\count337
+)) (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count337
+\lrq@indent=\count338
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count338
-\c@listtotal=\count339
-\c@listcount=\count340
-\c@liststart=\count341
-\c@liststop=\count342
-\c@citecount=\count343
-\c@citetotal=\count344
-\c@multicitecount=\count345
-\c@multicitetotal=\count346
-\c@instcount=\count347
-\c@maxnames=\count348
-\c@minnames=\count349
-\c@maxitems=\count350
-\c@minitems=\count351
-\c@citecounter=\count352
-\c@maxcitecounter=\count353
-\c@savedcitecounter=\count354
-\c@uniquelist=\count355
-\c@uniquename=\count356
-\c@refsection=\count357
-\c@refsegment=\count358
-\c@maxextratitle=\count359
-\c@maxextratitleyear=\count360
-\c@maxextraname=\count361
-\c@maxextradate=\count362
-\c@maxextraalpha=\count363
-\c@abbrvpenalty=\count364
-\c@highnamepenalty=\count365
-\c@lownamepenalty=\count366
-\c@maxparens=\count367
-\c@parenlevel=\count368
-\blx@tempcnta=\count369
-\blx@tempcntb=\count370
-\blx@tempcntc=\count371
-\c@blx@maxsection=\count372
-\blx@maxsegment@0=\count373
-\blx@notetype=\count374
-\blx@parenlevel@text=\count375
-\blx@parenlevel@foot=\count376
-\blx@sectionciteorder@0=\count377
-\blx@sectionciteorderinternal@0=\count378
-\blx@entrysetcounter=\count379
-\blx@biblioinstance=\count380
+\c@tabx@nest=\count339
+\c@listtotal=\count340
+\c@listcount=\count341
+\c@liststart=\count342
+\c@liststop=\count343
+\c@citecount=\count344
+\c@citetotal=\count345
+\c@multicitecount=\count346
+\c@multicitetotal=\count347
+\c@instcount=\count348
+\c@maxnames=\count349
+\c@minnames=\count350
+\c@maxitems=\count351
+\c@minitems=\count352
+\c@citecounter=\count353
+\c@maxcitecounter=\count354
+\c@savedcitecounter=\count355
+\c@uniquelist=\count356
+\c@uniquename=\count357
+\c@refsection=\count358
+\c@refsegment=\count359
+\c@maxextratitle=\count360
+\c@maxextratitleyear=\count361
+\c@maxextraname=\count362
+\c@maxextradate=\count363
+\c@maxextraalpha=\count364
+\c@abbrvpenalty=\count365
+\c@highnamepenalty=\count366
+\c@lownamepenalty=\count367
+\c@maxparens=\count368
+\c@parenlevel=\count369
+\blx@tempcnta=\count370
+\blx@tempcntb=\count371
+\blx@tempcntc=\count372
+\c@blx@maxsection=\count373
+\blx@maxsegment@0=\count374
+\blx@notetype=\count375
+\blx@parenlevel@text=\count376
+\blx@parenlevel@foot=\count377
+\blx@sectionciteorder@0=\count378
+\blx@sectionciteorderinternal@0=\count379
+\blx@entrysetcounter=\count380
+\blx@biblioinstance=\count381
 \labelnumberwidth=\skip94
 \labelalphawidth=\skip95
 \biblabelsep=\skip96
@@ -549,9 +554,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language79
-\c@mincomprange=\count381
-\c@maxcomprange=\count382
-\c@mincompwidth=\count383
+\c@mincomprange=\count382
+\c@maxcomprange=\count383
+\c@mincompwidth=\count384
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -561,74 +566,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count384
-\c@savedafterword=\count385
-\c@annotator=\count386
-\c@savedannotator=\count387
-\c@author=\count388
-\c@savedauthor=\count389
-\c@bookauthor=\count390
-\c@savedbookauthor=\count391
-\c@commentator=\count392
-\c@savedcommentator=\count393
-\c@editor=\count394
-\c@savededitor=\count395
-\c@editora=\count396
-\c@savededitora=\count397
-\c@editorb=\count398
-\c@savededitorb=\count399
-\c@editorc=\count400
-\c@savededitorc=\count401
-\c@foreword=\count402
-\c@savedforeword=\count403
-\c@holder=\count404
-\c@savedholder=\count405
-\c@introduction=\count406
-\c@savedintroduction=\count407
-\c@namea=\count408
-\c@savednamea=\count409
-\c@nameb=\count410
-\c@savednameb=\count411
-\c@namec=\count412
-\c@savednamec=\count413
-\c@translator=\count414
-\c@savedtranslator=\count415
-\c@shortauthor=\count416
-\c@savedshortauthor=\count417
-\c@shorteditor=\count418
-\c@savedshorteditor=\count419
-\c@labelname=\count420
-\c@savedlabelname=\count421
-\c@institution=\count422
-\c@savedinstitution=\count423
-\c@lista=\count424
-\c@savedlista=\count425
-\c@listb=\count426
-\c@savedlistb=\count427
-\c@listc=\count428
-\c@savedlistc=\count429
-\c@listd=\count430
-\c@savedlistd=\count431
-\c@liste=\count432
-\c@savedliste=\count433
-\c@listf=\count434
-\c@savedlistf=\count435
-\c@location=\count436
-\c@savedlocation=\count437
-\c@organization=\count438
-\c@savedorganization=\count439
-\c@origlocation=\count440
-\c@savedoriglocation=\count441
-\c@origpublisher=\count442
-\c@savedorigpublisher=\count443
-\c@publisher=\count444
-\c@savedpublisher=\count445
-\c@language=\count446
-\c@savedlanguage=\count447
-\c@origlanguage=\count448
-\c@savedoriglanguage=\count449
-\c@pageref=\count450
-\c@savedpageref=\count451
+\c@afterword=\count385
+\c@savedafterword=\count386
+\c@annotator=\count387
+\c@savedannotator=\count388
+\c@author=\count389
+\c@savedauthor=\count390
+\c@bookauthor=\count391
+\c@savedbookauthor=\count392
+\c@commentator=\count393
+\c@savedcommentator=\count394
+\c@editor=\count395
+\c@savededitor=\count396
+\c@editora=\count397
+\c@savededitora=\count398
+\c@editorb=\count399
+\c@savededitorb=\count400
+\c@editorc=\count401
+\c@savededitorc=\count402
+\c@foreword=\count403
+\c@savedforeword=\count404
+\c@holder=\count405
+\c@savedholder=\count406
+\c@introduction=\count407
+\c@savedintroduction=\count408
+\c@namea=\count409
+\c@savednamea=\count410
+\c@nameb=\count411
+\c@savednameb=\count412
+\c@namec=\count413
+\c@savednamec=\count414
+\c@translator=\count415
+\c@savedtranslator=\count416
+\c@shortauthor=\count417
+\c@savedshortauthor=\count418
+\c@shorteditor=\count419
+\c@savedshorteditor=\count420
+\c@labelname=\count421
+\c@savedlabelname=\count422
+\c@institution=\count423
+\c@savedinstitution=\count424
+\c@lista=\count425
+\c@savedlista=\count426
+\c@listb=\count427
+\c@savedlistb=\count428
+\c@listc=\count429
+\c@savedlistc=\count430
+\c@listd=\count431
+\c@savedlistd=\count432
+\c@liste=\count433
+\c@savedliste=\count434
+\c@listf=\count435
+\c@savedlistf=\count436
+\c@location=\count437
+\c@savedlocation=\count438
+\c@organization=\count439
+\c@savedorganization=\count440
+\c@origlocation=\count441
+\c@savedoriglocation=\count442
+\c@origpublisher=\count443
+\c@savedorigpublisher=\count444
+\c@publisher=\count445
+\c@savedpublisher=\count446
+\c@language=\count447
+\c@savedlanguage=\count448
+\c@origlanguage=\count449
+\c@savedoriglanguage=\count450
+\c@pageref=\count451
+\c@savedpageref=\count452
 \shorthandwidth=\skip102
 \shortjournalwidth=\skip103
 \shortserieswidth=\skip104
@@ -652,19 +657,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count452
-\c@textcitetotal=\count453
-\c@textcitemaxnames=\count454
-\c@biburlbigbreakpenalty=\count455
-\c@biburlbreakpenalty=\count456
-\c@biburlnumpenalty=\count457
-\c@biburlucpenalty=\count458
-\c@biburllcpenalty=\count459
+\c@textcitecount=\count453
+\c@textcitetotal=\count454
+\c@textcitemaxnames=\count455
+\c@biburlbigbreakpenalty=\count456
+\c@biburlbreakpenalty=\count457
+\c@biburlnumpenalty=\count458
+\c@biburlucpenalty=\count459
+\c@biburllcpenalty=\count460
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count460
+\c@smartand=\count461
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -674,8 +679,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count461
-\c@bbx:relatedtotal=\count462
+\c@bbx:relatedcount=\count462
+\c@bbx:relatedtotal=\count463
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -707,35 +712,35 @@ Package biblatex Info: ... and expl3
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 ))
-LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 122.
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 123.
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 122.
-\@quotelevel=\count463
-\@quotereset=\count464
+(Font)              scaled to size 10.0pt on input line 123.
+\@quotelevel=\count464
+\@quotereset=\count465
  (paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -773,16 +778,16 @@ LaTeX Font Info:    ... okay on input line 122.
 
 (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count465
+\scratchcounter=\count466
 \scratchdimen=\dimen281
 \scratchbox=\box104
-\nofMPsegments=\count466
-\nofMParguments=\count467
+\nofMPsegments=\count467
+\nofMParguments=\count468
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count468
+\MPscratchCnt=\count469
 \MPscratchDim=\dimen282
-\MPnumerator=\count469
-\makeMPintoPDFobject=\count470
+\MPnumerator=\count470
+\makeMPintoPDFobject=\count471
 \everyMPtoPDFconversion=\toks33
 ) (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -793,13 +798,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@mv@tabular=\count471
-\c@mv@boldtabular=\count472
-Package hyperref Info: Link coloring OFF on input line 122.
- (paper.out) (paper.out)
-\@outlinefile=\write4
-\openout4 = `paper.out'.
-
+\c@mv@tabular=\count472
+\c@mv@boldtabular=\count473
+Package hyperref Info: Link coloring OFF on input line 123.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
@@ -813,92 +814,94 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'paper.bbl' found.
  (paper.bbl)
-Package biblatex Info: Reference section=0 on input line 122.
-Package biblatex Info: Reference segment=0 on input line 122.
+Package biblatex Info: Reference section=0 on input line 123.
+Package biblatex Info: Reference segment=0 on input line 123.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 11.0pt on input line 129.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 133.
- [1{C:/Users/olive/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}
-
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 133.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 16.0pt on input line 133.
+(Font)              scaled to size 11.0pt on input line 130.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 16.0pt on input line 133.
+(Font)              scaled to size 14.0pt on input line 135.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 11.0pt on input line 142.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 133.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 133.
+(Font)              scaled to size 12.0pt on input line 150.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 150.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
+(Font)              scaled to size 12.0pt on input line 161.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 192.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 192.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 192.
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 133.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 192.
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 133.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 14.0pt on input line 136.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 11.0pt on input line 143.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 151.
-LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
-(Font)              scaled to size 12.0pt on input line 161.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 181.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 181.
+(Font)              scaled to size 6.0pt on input line 192.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 192.
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 181.
- [2{C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+(Font)              scaled to size 8.0pt on input line 192.
+ [1{C:/Users/olive/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}
+
+{C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}]
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 202.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 212.
+(Font)              scaled to size 12.0pt on input line 204.
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 222.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 212.
-LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 212.
+(Font)              scaled to size 12.0pt on input line 225.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 236.
  (C:\Users\olive\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtt.fd
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 212.
+(Font)              scaled to size 12.0pt on input line 236.
+ [2{C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.0pt on input line 276.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 276.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 276.
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 41.
+Package caption Warning: Unused \captionsetup[table] on input line 42.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[figure] on input line 46.
+Package caption Warning: Unused \captionsetup[figure] on input line 47.
 See the caption package documentation for explanation.
 
-[3{C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc}] (paper.aux)
+[3] (paper.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 33F2E51D263B6378544EDC6A39E79C83;2988.
 Package logreq Info: Writing requests to 'paper.run.xml'.
 \openout1 = `paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22408 strings out of 467510
- 394317 string characters out of 5408794
- 1322222 words of memory out of 5000000
- 51338 multiletter control sequences out of 15000+600000
- 678747 words of font info for 84 fonts, out of 8000000 for 9000
+ 22713 strings out of 467510
+ 399845 string characters out of 5408794
+ 1331592 words of memory out of 5000000
+ 51633 multiletter control sequences out of 15000+600000
+ 688151 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,12n,79p,1250b,1604s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on paper.pdf (3 pages, 185575 bytes).
+ 73i,12n,79p,1250b,1607s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
+Output written on paper.pdf (3 pages, 260700 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

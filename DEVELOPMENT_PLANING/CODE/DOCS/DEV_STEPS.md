@@ -40,11 +40,11 @@ Live tracker. Build order: **hypergraph → SAE → visualiser.**
 
 ### Phase 0 — Scope & problem definition
 Status: [ ] Not started  [X] In progress  [ ] Complete
-- [ ] Define the drift problem in one paragraph
-- [ ] Identify target audience
-- [ ] Define expected output (visualiser + baseline comparison)
-- [ ] Write success criteria (§1)
-- [ ] Record assumptions / risks (below)
+- [X] Define the drift problem in one paragraph
+- [X] Identify target audience
+- [X] Define expected output (visualiser + baseline comparison)
+- [X] Write success criteria (§1)
+- [X] Record assumptions / risks (below)
 - [ ] Capture evidence
 - [ ] Confirm exit criteria
 
@@ -56,17 +56,17 @@ Status: [ ] Not started  [X] In progress  [ ] Complete
 - Scope creep → vision arm + causal layer out of scope.
 
 ### Phase 1 — Hypergraph & schema
-Status: [X] Not started  [ ] In progress  [ ] Complete
-- [ ] Build small medical hypergraph (hyperedges = n-ary facts)
-- [ ] Define schema (entities, hyperedges, attributes)
-- [ ] Sample data (few dozen hyperedges + test queries)
-- [ ] Confirm hyperedge works as shared concept unit
-- [ ] Document toy-data limits
-- [ ] Capture evidence
-- [ ] Confirm exit criteria
+Status: [] Not started  [X] In progress  [ ] Complete
+- [X] Build small medical hypergraph (hyperedges = n-ary facts)
+- [X] Define schema (entities, hyperedges, attributes)
+- [X] Sample data (few dozen hyperedges + test queries)
+- [X] Confirm hyperedge works as shared concept unit
+- [X] Document toy-data limits (must be directional data so the schema can capture roles)
+- [X] Capture evidence
+- [X] Confirm exit criteria, all tests passed using fake data case
 
 ### Phase 2 — Encoders (real + complex)
-Status: [X] Not started  [ ] In progress  [ ] Complete
+Status: [] Not started  [X] In progress  [ ] Complete
 - [ ] Real-valued baseline embedding
 - [ ] Complex / rotational embedding (RotatE/ComplEx)
 - [ ] Hold all else identical (hypergraph, queries, seeds)

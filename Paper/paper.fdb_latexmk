@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber paper"] 1786019444.32149 "paper.bcf" "paper.bbl" "paper" 1786026706.59576 0
-  "paper.bcf" 1786026706 107818 29fd145fa0aa2bc3983be1a8e2934fd2 "pdflatex"
+["biber paper"] 1786114113.46535 "paper.bcf" "paper.bbl" "paper" 1786115378.5177 0
+  "paper.bcf" 1786115377 107892 57e932d26811c6fc3083e48df152722a "pdflatex"
   "sources.bib" 1786019402 521 c6abd50dea3ab1e9b364b4e19c42e00b ""
   (generated)
   "paper.bbl"
   "paper.blg"
   (rewritten before read)
-["pdflatex"] 1786026704.02114 "c:/Users/olive/OneDrive/Desktop/Diagnostics_model/Paper/paper.tex" "paper.pdf" "paper" 1786026706.59689 0
-  "C:/Users/olive/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1784718001 163260 f7138aa97b0a1dcae55100dabb7d9e7d ""
+["pdflatex"] 1786115375.67857 "c:/Users/olive/OneDrive/Desktop/Diagnostics_model/Paper/paper.tex" "paper.pdf" "paper" 1786115378.52007 0
+  "C:/Users/olive/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1786106572 163260 f7138aa97b0a1dcae55100dabb7d9e7d ""
   "C:/Users/olive/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1784631139 13367062 e9dcfb8bc05b5c76eaaa57f0968b8c51 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc" 1736607166 3136 bbe665bd0bb471a2da1e8fd326cff9fa ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1736607166 2914 fdbc4a54b9bc76f4551b5303f2737d33 ""
@@ -28,6 +28,9 @@
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm" 1136765053 1300 b62933e007d01cfd073f79b963c01526 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmss10.tfm" 1136765053 1316 b636689f1933f24d1294acdf6041daaa ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmss12.tfm" 1136765053 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmss8.tfm" 1136765053 1296 d77f431d10d47c8ea2cc18cf45346274 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
@@ -38,6 +41,13 @@
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/newtx/ntx-Regular-tlf-t1.tfm" 1736607165 11580 86fb9f1fbe830bcc3e5ca9d9fb704e6b ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/tex-gyre/ts1-qtmr.tfm" 1254938640 1600 20cdf11dab97d5d39e847571f9314407 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/txfonts/t1xtt.tfm" 977342760 1384 8943063000d26272532f74ca134dfecd ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1247596666 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb" 1736607166 255251 ff86dd5a515ecd222fc60cb2612549c9 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb" 1736607166 260277 427b4b61566a04f0c6d82fd1c334d0b3 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb" 1736607166 286816 c3d030d8c7fd436565d9670f5ca64aa0 ""
@@ -89,6 +99,8 @@
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-dm.def" 1752408733 32761 18d14e3b502c120f79b2184de4e21d14 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/cbx/numeric.cbx" 1752408733 4676 d3f90f6377ee43f043262aa587deb6de ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/english.lbx" 1752408733 40021 daa5a82ed0967f3ac4b77cb8384cac55 ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/bookmark/bkm-pdftex.def" 1779548575 8543 1db45c01b16abf129670d7f7c7fdc491 ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/bookmark/bookmark.sty" 1779548575 18127 22204cbe23d94cbe50b612c25ebd2dcd ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.sty" 1579093635 6253 f1cb470c9199e7110a27851508ed7a5c ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty" 1696169587 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty" 1696169587 72619 ee90b6612147680fd73c3b1406a74245 ""
@@ -141,17 +153,15 @@
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/olive/OneDrive/Desktop/Diagnostics_model/Paper/paper.tex" 1786026700 8556 13b2d5927ca61195a8485a9861576146 ""
-  "paper.aux" 1786026706 2588 f33b1dc9d466417fbe85e8b4997031c2 "pdflatex"
-  "paper.bbl" 1786019447 2277 61080e977786f001413741f6fe68894d "biber paper"
-  "paper.out" 1786026706 2988 33f2e51d263b6378544edc6a39e79c83 "pdflatex"
-  "paper.run.xml" 1786026706 2309 89f93da09bc1f9b75cae122e26edfc57 "pdflatex"
-  "paper.tex" 1786026700 8556 13b2d5927ca61195a8485a9861576146 ""
+  "c:/Users/olive/OneDrive/Desktop/Diagnostics_model/Paper/paper.tex" 1786115372 11485 7d621770c7c659a850dad45a67462df0 ""
+  "paper.aux" 1786115377 9165 8f312f7fae175078a12aab40daf23a1c "pdflatex"
+  "paper.bbl" 1786114118 2277 61080e977786f001413741f6fe68894d "biber paper"
+  "paper.run.xml" 1786115377 2309 89f93da09bc1f9b75cae122e26edfc57 "pdflatex"
+  "paper.tex" 1786115372 11485 7d621770c7c659a850dad45a67462df0 ""
   (generated)
   "paper.aux"
   "paper.bcf"
   "paper.log"
-  "paper.out"
   "paper.pdf"
   "paper.run.xml"
   (rewritten before read)

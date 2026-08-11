@@ -1,11 +1,7 @@
-# CODE BLOCKS 1: Quantum HyperRAG + sparce autoencoder
+# CODE BLOCKS: Quantum HyperRAG + sparce autoencoder
 Virtual env created name venv-olie
 Folder structure (Capitals = folders)
-CODE
-    DATA
-    DOCS
-    QUANTUM_HYP 
-    VISUALISATION
+
 
 ## Block Criteria
 A code block is considered auditable when the following are true:
@@ -29,15 +25,43 @@ A code block is considered auditable when the following are true:
 - Review status
 
 ### CODE BLOCK [0]
-- Block name: HyperGraph Store
+- Block name: HyperGraph
 - Purpose: store entities as nodes and n-ary facts as hyperedges; the hyperedge is the shared concept unit for later comparison and visualisation
 - Phase: 1
-- Files: hypergraph/store.py, hypergraph/schema.py
+- Files: hypergraph/schema.py, store.py, persistence.py, init.py; tests/test_hypergraph_store.py
 - Inputs: entity list + n-ary facts (each fact = a set of entities + a relation label), as dict/JSON to start
 - Outputs: an in-memory hypergraph object; helpers to add/query hyperedges and list an entity's incident hyperedges
-- Dependencies: HyperNetX (pip); Python 3.x
-- Assumptions: knowledge fits in memory (small toy set, few dozen hyperedges); each fact is representable as one hyperedge over ≥2 entities
+- Dependencies: Python 3.x, This section is just constructing a JSON hypergrpah it does not depend on HyperNetX
+- Assumptions: Data is ordered.
 - Validation: round-trip test — insert known facts, retrieve them, confirm entity↔hyperedge membership; assert hyperedge count and arity match the input
-- Limitations: no persistence (rebuilt each run); no dedup/versioning; toy scale only; no retrieval logic yet (that's a later block)
-- Review status: Draft
+- Limitations: Limited to a small data set of ordered data
+- Review status: In review
+- Audit note:
+
+## CODE BLOCK [1]
+- Block name: quantum embedding Embedding
+- Purpose: Create  embeddings (complex)
+- Phase: 2
+- Files:
+- Inputs: Hyperedge netowrk, stored by persistence.py
+- Outputs: Real Word embeddings for our entities, relationships, and roles.
+- Dependencies: 
+- Assumptions: 
+- Validation: 
+- Limitations: 
+- Review status: 
+- Audit note:
+
+## CODE BLOCK [2]
+- Block name: Real embedding Embedding
+- Purpose: Create embeddings (non-complex)
+- Phase: 2
+- Files:
+- Inputs: 
+- Outputs:
+- Dependencies: 
+- Assumptions: 
+- Validation: 
+- Limitations: 
+- Review status: 
 - Audit note:

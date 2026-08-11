@@ -20,6 +20,7 @@
 \usepackage{booktabs}  % For improved table appearance
 \usepackage{array}     % For customizing table columns
 \usepackage{hyperref} % For hyperlinks in the document
+\usepackage{bookmark} % Prevent rerunfilecheck warnings from hyperref/bookmarks
 \usepackage[backend=biber,style=numeric,sorting=none]{biblatex} % For bibliography management
 
 
@@ -110,7 +111,7 @@
   \renewcommand{\footrulewidth}{0.4pt}  % Add footer line
 }
 
-\title{\fontsize{16}{20}\selectfont\textbf{Paper Title}}
+\title{\fontsize{16}{20}\selectfont\textbf{Hypergraph RAG + Sparse Autoencoder using Complex/Hilbert-Space Linear Algebra to Visualise Concept Drift}}
 \author{
     \fontsize{12}{14}\selectfont
     First Author\textsuperscript{1*} \\
@@ -129,8 +130,6 @@
 {\fontsize{11}{13}\selectfont{Research Article}}
 \vspace{-0.8cm}  % Adjust spacing between "Research Article" and title
 
-% Now, insert the title and the author information
-\maketitle Hypergraph RAG + sparce autoencoder, using quantum linear algebra (Complex / Hilbert space): to visualise concept drift
 
 \thispagestyle{firstpage} % Apply custom header/footer for first page
 \begin{abstract}
@@ -156,9 +155,9 @@ Place text here
 \fontsize{12}{14}\selectfont
 ~\cite{laine2025quantumllm} For semantic space modelling.
 
+\section{Method and Model}
 \subsection{Phase 0: Problem Definition}
 \fontsize{12}{14}\selectfont
-\subsubsection{Define the drift problem in one paragraph}
 \subsubsection{Define the drift problem in one paragraph}
 This project visualises concept drift in a HyperRAG system operating over simple medical datasets. 
 As the system answers a query using a HyperRAG network, a sparse autoencoder identifies the concepts it relies on, and complex (quantum-inspired) 
@@ -166,7 +165,9 @@ linear algebra gives each concept a magnitude and an angle in Hilbert space; mag
 angle for its relation to other concepts. Plotting these across queries turns the similarities and differences 
 between concepts into visible geometry: as the query changes, the relative angles between concepts open and close, and that movement is the drift. 
 The aim is to make the system's shifting internal concepts legible in a way a real-valued, magnitude-only view cannot.
-We want to see how the system judges relations in a Hilbert space, and how those relations change over different queries.
+We want to see how the system judges relations in a Hilbert space, and how those relations change over different prompts.
+We also investigate whether representing concepts with complex-valued (quantum-inspired) linear algebra can reveal information about polysemy and 
+concept relationships that a real-valued vector space cannot.\cite{laine2025quantumllm}.
 
 \subsubsection{Identify target audience}
 Researchers, engineers and artists.
@@ -186,9 +187,72 @@ Information loss and spurious concepts in both the real and Hilbert-space repres
 \fontsize{12}{14}\selectfont
 \subsubsection{Hypergraph Store}
 This section takes our initial data and stores it as a hypergraph, each entity, is a node and n-ary of facts are hyperedges. 
-This data strcuture is built using hypernetx. This section has no quantum linear algebra as this si the store of our preliminary data structure.
+This data strcuture is built as a standalone component, hyperNetX will be added downstream. 
+This section has no quantum linear algebra, this is the store of our preliminary data structure.
 
-\subsubsection{Embedding Layer}
+\subsubsection{Hypergraph persistence}
+Responsible for writing and reading the hypergraph to disk. 
+This is done using JSON, and the hypergraph is stored as a dictionary of nodes and edges.
+
+\subsubsection{Hypergraph Schema}
+Defines the structure and types of nodes and edges in the hypergraph. 
+Defines what is an entity and what is a relaitonship, and how they are connected. 
+This is important when the RAG system wants to query the network. 
+
+\paragraph{Data Representation}
+We model the knowledge base as a hypergraph $H = (V, E)$. 
+Entities are nodes and relationships are \emph{role-typed} hyperedges.
+
+\subparagraph{Entities.} Let $V =\text{set of entities}$. 
+Each $v \in V$ carries a stable identifier and optional attributes; the identifier is the anchor to which
+extracted concepts are later bound.
+
+\subparagraph{Relationships.} 
+Let $\mathcal{R}$ be a set of relation labels and $\Phi$ a set of role labels.
+A hyperedge is a triple
+\[
+  e = (\ell,\; r,\; \rho), \qquad
+  \ell \in \mathcal{L}, \quad
+  r \in \mathcal{R}, \quad
+  \rho \colon \Phi \rightharpoonup V, \quad
+  |\operatorname{dom}(\rho)| \geq 2,
+\]
+where
+\begin{itemize}
+  \item $\ell$ is a unique identifier drawn from a label set $\mathcal{L}$
+        (the stable anchor for the fact);
+  \item $r \in \mathcal{R}$ is the relation label naming the relationship
+        (e.g.\ \textsc{treats});
+  \item $\rho \colon \Phi \rightharpoonup V$ is a partial map from role labels to
+        entities, assigning each participating entity the role it plays;
+  \item $\operatorname{dom}(\rho) \subseteq \Phi$ is the set of roles actually
+        used by this edge, and $|\operatorname{dom}(\rho)| \geq 2$ requires at
+        least two role-bound entities.
+\end{itemize}
+
+Eg.~``aspirin treats headache at a 300\,mg dose'' is a single
+hyperedge
+\[
+  e_1 = \bigl(\texttt{he\_0001},\; \textsc{treats},\;
+  \{\, \mathsf{agent} \mapsto \text{aspirin},\;
+       \mathsf{target} \mapsto \text{headache},\;
+       \mathsf{dose} \mapsto \text{300\,mg} \,\}\bigr).
+\]
+
+The role map preserves directionality:
+$\rho(\mathsf{agent}) \neq \rho(\mathsf{target})$ distinguishes ``$X$ treats $Y$''
+from ``$Y$ treats $X$'', and $|\operatorname{dom}(\rho)| \geq 2$ lets one
+hyperedge hold an $n$-ary fact rather than $\tbinom{n}{2}$ binary edges.
+
+The schema \emph{declares} and validates a supplied edge:
+\[
+  \operatorname{valid}(e) \;\iff\; r \in \mathcal{R} \;\wedge\;
+  |\operatorname{dom}(\rho)| \geq 2 .
+\]
+\emph{Identifying} edges from source data $\mathcal{D}$ is a separate upstream
+map $\mathcal{E}\colon \mathcal{D} \to 2^{E}$, disjoint from this component.
+
+\subsection{Phase 2: Embedding Layer}
 Where entities and relations become embeddings, embed these in a Hilbert space.
 
 
