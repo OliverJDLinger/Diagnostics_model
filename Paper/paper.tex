@@ -51,6 +51,10 @@
 \defbibheading{bibliography}[\refname]{%
   \section{\MakeUppercase{REFERENCES}}}
 
+% Define glossary command for variable descriptions
+\newcommand{\gloss}[2]{{\textit{#1}}\quad---\quad#2}
+\newcommand{\where}{{\textbf{where}}}
+
 % Set page margins
 \geometry{
     a4paper,
@@ -252,10 +256,84 @@ The schema \emph{declares} and validates a supplied edge:
 \emph{Identifying} edges from source data $\mathcal{D}$ is a separate upstream
 map $\mathcal{E}\colon \mathcal{D} \to 2^{E}$, disjoint from this component.
 
-\subsection{Phase 2: Embedding Layer}
+\subsection{Phase 2: Complex Embedding Layer}
 Where entities and relations become embeddings, embed these in a Hilbert space.
+We make use of RotatE encodings, to apply role-driven rotations to each concept.
 
+\subsubsection{RotatE encoding (discrete, role-driven)}
+\begin{equation}
+  R_{\rho} = \operatorname{diag}\!\left(e^{i\theta^{\rho}_1}, \dots, e^{i\theta^{\rho}_d}\right),
+  \qquad
+  c = \frac{1}{k}\sum_{i=1}^{k} R_{\rho_i}\, e_i .
+\end{equation}
 
+\begin{itemize}
+  \item $e_i \in \mathbb{C}^{d}$ --- complex embedding of the $i$-th entity ($d$ ``phasors'')
+  \item $\theta^{\rho} \in \mathbb{R}^{d}$ --- the phase angles of role $\rho$ (one per dimension)
+  \item $R_{\rho}$ --- a diagonal \emph{unitary}: it rotates each phasor of an entity by its role angle
+  \item $k$ --- the number of role-bound entities in the fact
+  \item $c \in \mathbb{C}^{d}$ --- the encoded concept --- the aggregate placement
+\end{itemize}
+
+We make use of a diagonal matrix, the rotation is applied to each dimension of the embedding independently. 
+We rotate the phase of the specific dimension by its own angle $\theta^{\rho}_j$.
+We have neglected to add positional data to the hypergraph, hence using the diagonal matrix to rotate each dimension independently. 
+In future work we can explore giving the concept walks eigenvalues a RoPE-like frequency spectrum to explore how fast modes shift.
+
+\subsubsection{Encoding as a quantum state}
+\begin{equation}
+  \lvert\psi(0)\rangle = \frac{c}{\lVert c \rVert},
+  \qquad
+  \langle\psi\vert\psi\rangle = 1,
+  \qquad
+  p_k = \lvert \psi_k \rvert^{2}.
+\end{equation}
+
+\begin{itemize}
+  \item $\lvert\psi(0)\rangle$ --- the unit-norm state --- the initial condition of the walk
+  \item $\lVert c \rVert$ --- the Euclidean length of $c$ (what we divide by to normalise)
+  \item $\langle\psi\vert\psi\rangle$ --- the state's inner product with itself; $=1$ means unit length
+  \item $p_k = \lvert\psi_k\rvert^2$ --- the Born-rule probability of component $k$
+\end{itemize}
+Normalising has turned this concept vector into a genuine wave function, 
+The unit normal state is the wave function of the concept at time T=0, 
+
+The born-rule probability is the probability of measuring a specific concept, this is the magnitude of the complex number squared.
+
+This gives concepts encoded in Hilbert space a probabilistic interpretation, and allows us to use interpretations from quantum mechanics to understand the behaviour of concepts in the system.
+
+This has set where our clock hands start at time T=0, and we can now evolve the concept over time using a unitary operator. 
+
+The multiplaction of the Hamiltonian by the imaginary unit $i$ and the negative sign in the exponent ensures that the evolution is unitary, preserving the probability distribution of the state over time.
+
+\subsection{Phase 3: The concept walk, Evolution of concepts over time}
+\subsubsection{Unitary evolution (continuous, time-driven)}
+\begin{equation}
+  i\,\frac{d}{dt}\lvert\psi(t)\rangle = H\,\lvert\psi(t)\rangle
+  \qquad\Longrightarrow\qquad
+  \lvert\psi(t)\rangle = e^{-iHt}\,\lvert\psi(0)\rangle .
+\end{equation}
+ 
+\begin{equation}
+  H = H^{\dagger}
+  \quad\Longrightarrow\quad
+  \bigl(e^{-iHt}\bigr)^{\dagger} e^{-iHt} = I
+  \quad\Longrightarrow\quad
+  \lVert \psi(t) \rVert = 1 \quad \text{for all } t .
+\end{equation}
+
+\begin{itemize}
+  \item $H$ --- the Hermitian Hamiltonian ($d\times d$) --- the \emph{generator} of the evolution
+  \item $H^{\dagger}$ --- the conjugate transpose of $H$; ``$H=H^\dagger$'' means $H$ is Hermitian
+  \item $e^{-iHt}$ --- the \emph{unitary propagator} --- ``the clock'' that advances the state
+  \item $t$ --- continuous time
+  \item $I$ --- the identity matrix
+\end{itemize}
+
+Now the clock runs. Because $H$ is Hermitian, the propagator $e^{-iHt}$ is
+\emph{unitary}, so the norm is preserved for \emph{all} time: the state rotates but
+never shrinks. This is the non-degradation guarantee --- and it is exactly what
+``unitary'' means.
 \section{Results and Discussion}
 
 Place text here

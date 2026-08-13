@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber paper"] 1786114113.46535 "paper.bcf" "paper.bbl" "paper" 1786115378.5177 0
-  "paper.bcf" 1786115377 107892 57e932d26811c6fc3083e48df152722a "pdflatex"
+["biber paper"] 1786537040.02234 "paper.bcf" "paper.bbl" "paper" 1786617132.60476 0
+  "paper.bcf" 1786617132 107892 57e932d26811c6fc3083e48df152722a "pdflatex"
   "sources.bib" 1786019402 521 c6abd50dea3ab1e9b364b4e19c42e00b ""
   (generated)
   "paper.bbl"
   "paper.blg"
   (rewritten before read)
-["pdflatex"] 1786115375.67857 "c:/Users/olive/OneDrive/Desktop/Diagnostics_model/Paper/paper.tex" "paper.pdf" "paper" 1786115378.52007 0
+["pdflatex"] 1786617129.51292 "c:/Users/olive/OneDrive/Desktop/Diagnostics_model/Paper/paper.tex" "paper.pdf" "paper" 1786617132.60746 0
   "C:/Users/olive/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1786106572 163260 f7138aa97b0a1dcae55100dabb7d9e7d ""
   "C:/Users/olive/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1784631139 13367062 e9dcfb8bc05b5c76eaaa57f0968b8c51 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf-pc.enc" 1736607166 3136 bbe665bd0bb471a2da1e8fd326cff9fa ""
@@ -43,11 +43,15 @@
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/tfm/public/txfonts/t1xtt.tfm" 977342760 1384 8943063000d26272532f74ca134dfecd ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247596666 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1247596666 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1247596667 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb" 1247596666 24393 3b7eb51a67a0a62aec5849271bdb9c2e ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
+  "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb" 1736607166 255251 ff86dd5a515ecd222fc60cb2612549c9 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmbi.pfb" 1736607166 260277 427b4b61566a04f0c6d82fd1c334d0b3 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb" 1736607166 286816 c3d030d8c7fd436565d9670f5ca64aa0 ""
@@ -153,11 +157,11 @@
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/olive/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/olive/OneDrive/Desktop/Diagnostics_model/Paper/paper.tex" 1786115372 11485 7d621770c7c659a850dad45a67462df0 ""
-  "paper.aux" 1786115377 9165 8f312f7fae175078a12aab40daf23a1c "pdflatex"
-  "paper.bbl" 1786114118 2277 61080e977786f001413741f6fe68894d "biber paper"
-  "paper.run.xml" 1786115377 2309 89f93da09bc1f9b75cae122e26edfc57 "pdflatex"
-  "paper.tex" 1786115372 11485 7d621770c7c659a850dad45a67462df0 ""
+  "c:/Users/olive/OneDrive/Desktop/Diagnostics_model/Paper/paper.tex" 1786617125 15566 39eb8f0168cb02d1c4f86f6df4ef01b4 ""
+  "paper.aux" 1786617132 12066 54740be213b805252d140eee691978e6 "pdflatex"
+  "paper.bbl" 1786537045 2277 61080e977786f001413741f6fe68894d "biber paper"
+  "paper.run.xml" 1786617132 2309 89f93da09bc1f9b75cae122e26edfc57 "pdflatex"
+  "paper.tex" 1786617125 15566 39eb8f0168cb02d1c4f86f6df4ef01b4 ""
   (generated)
   "paper.aux"
   "paper.bcf"

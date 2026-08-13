@@ -9,7 +9,7 @@ import numpy as np
 
 from hypergraph import Entity, Hyperedge, HypergraphStore
 from embeddings import Vocabulary
-from dynamics import (
+from quantum_walk import (
     hamiltonian, one_hot_state, QuantumWalk, probabilities, norms,
     relative_phase, euler_step,
 )
