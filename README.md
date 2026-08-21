@@ -27,6 +27,7 @@ concept relationships that a real-valued vector space cannot.
 
 ## Visualisation 
 The below image describes the angular relationship between concepts at different time t's.
-Magnitude (length of each hand) and frequency are fixed. This is for V2 where we cna relate each concept to another with a relationship matrix. Currently they are all diagonalised in Hilbert space. 
+Magnitude (length of each hand) and frequency are fixed. This is for V2 where we can relate each concept to another with a relationship matrix. 
+Currently they are all diagonalised in Hilbert space. Each vector has its own non related ket and Bra (column and row)
 
-![Relationship between concepts over time. Fixed magnitude and frequency, V1][V1_visualisation.png]
+![Relationship between concepts over time. Fixed magnitude and frequency, V1][Images/V1_visualisation.png]
