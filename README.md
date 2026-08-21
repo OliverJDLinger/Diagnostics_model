@@ -14,3 +14,13 @@ We then prompt the machine. Over evolution time *t*, we watch the concepts under
 Δ_jk(t) = θ_jk(t) − θ_jk(0). This drift, visible only because the system is complex
 and unitary, is the observable.
 
+## Introduction
+This project visualises concept drift in a HyperRAG system operating over simple medical datasets. 
+As the system answers a query using a HyperRAG network, a sparse autoencoder identifies the concepts it relies on, and complex (quantum-inspired) 
+linear algebra gives each concept a magnitude and an angle in Hilbert space; magnitude for how strongly the concept is present, 
+angle for its relation to other concepts. Plotting these across queries turns the similarities and differences 
+between concepts into visible geometry: as the query changes, the relative angles between concepts open and close, and that movement is the drift. 
+The aim is to make the system's shifting internal concepts legible in a way a real-valued, magnitude-only view cannot.
+We want to see how the system judges relations in a Hilbert space, and how those relations change over different prompts.
+We also investigate whether representing concepts with complex-valued (quantum-inspired) linear algebra can reveal information about polysemy and 
+concept relationships that a real-valued vector space cannot.
