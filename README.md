@@ -24,3 +24,9 @@ The aim is to make the system's shifting internal concepts legible in a way a re
 We want to see how the system judges relations in a Hilbert space, and how those relations change over different prompts.
 We also investigate whether representing concepts with complex-valued (quantum-inspired) linear algebra can reveal information about polysemy and 
 concept relationships that a real-valued vector space cannot.
+
+## Visualisation 
+The below image describes the angular relationship between concepts at different time t's.
+Magnitude (length of each hand) and frequency are fixed. This is for V2 where we cna relate each concept to another with a relationship matrix. Currently they are all diagonalised in Hilbert space. 
+
+![Relationship between concepts over time. Fixed magnitude and frequency, V1][V1_visualisation.png]
