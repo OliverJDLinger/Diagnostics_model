@@ -14,11 +14,18 @@ We then prompt the machine. Over evolution time *t*, we watch the concepts under
 Δ_jk(t) = θ_jk(t) − θ_jk(0). This drift, visible only because the system is complex
 and unitary, is the observable.
 
+## Abstract
+I took a set of biological functions, their environment and represented them in Hilbert space.
+As the stem cells are changed by their niche we observe how these concepts interact with each other over time t.
+It is also important to remeber that cancer cells can use s aniche to develop so this system cna be used to query the relationships that make up a cancerous niche. 
+
 ## Introduction
 This project visualises concept drift in a HyperRAG system operating over simple medical datasets. 
 As the system answers a query using a HyperRAG network, a sparse autoencoder identifies the concepts it relies on, and complex (quantum-inspired) 
 linear algebra gives each concept a magnitude and an angle in Hilbert space; magnitude for how strongly the concept is present, 
-angle for its relation to other concepts. Plotting these in Hilbert space the similarities and differences 
+angle for its relation to other concepts. 
+
+Plotting these in Hilbert space the similarities and differences 
 between concepts turn into visible geometry: as the query changes, the relative angles between concepts open and close, and that movement is the drift. 
 The aim is to make the system's shifting internal concepts legible in a way a real-valued, magnitude-only view cannot.
 We want to see how the system judges relations in a Hilbert space, and how those relations change over different prompts.
