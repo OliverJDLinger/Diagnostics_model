@@ -1,29 +1,24 @@
 # Diagnostics_model
+## Abstract
+We represent a set of biological functions and their environment as states in Hilbert space, and observe how these concepts interact over time *t* as stem cells are changed by their niche. It is important to remember that cancer cells can also use a niche to develop, so this system can be used to query the relationships that make up a cancerous niche.
 
-Takes medical data and builds a hypergraph (entities as nodes, n-ary facts as
-role-typed hyperedges), then saves it.
-
-Embeds the hypergraph two ways for comparison: a real-valued baseline
-(TransE-style) and a **complex arm** (RotatE-style), where each concept gets a
-magnitude and a phase. These embeddings give the *static* relationships between
-tokens — a fixed angle per pair.
+## Functional details
+The system takes medical data and builds a hypergraph (entities as nodes, *n*-ary facts as role-typed hyperedges), then saves it. It embeds the hypergraph two ways for comparison: a real-valued baseline (TransE-style) and a complex arm (RotatE-style), in which each concept receives a magnitude and a phase. These embeddings give the static relationships between tokens — a fixed angle per pair.
 
 We then prompt the machine. Over evolution time *t*, we watch the concepts undergo
 **unitary (norm-preserving) evolution** in Hilbert space, and measure how the
-*relative angle between token pairs* drifts from its starting value —
-Δ_jk(t) = θ_jk(t) − θ_jk(0). This drift, visible only because the system is complex
+*relative angle between token pairs* drifts from its starting value:
+
+Δ_jk(t) = θ_jk(t) − θ_jk(0). 
+
+This drift, visible only because the system is complex
 and unitary, is the observable.
 
-## Abstract
-I took a set of biological functions, their environment and represented them in Hilbert space.
-As the stem cells are changed by their niche we observe how these concepts interact with each other over time t.
-It is also important to remeber that cancer cells can use s aniche to develop so this system cna be used to query the relationships that make up a cancerous niche. 
-
-## Introduction
+## Introduction 
 This project visualises concept drift in a HyperRAG system operating over simple medical datasets. 
-As the system answers a query using a HyperRAG network, a sparse autoencoder identifies the concepts it relies on, and complex (quantum-inspired) 
+As the system answers a query using a HyperRAG network, and complex (quantum-inspired) 
 linear algebra gives each concept a magnitude and an angle in Hilbert space; magnitude for how strongly the concept is present, 
-angle for its relation to other concepts. 
+angle for its relation to other concepts. To ensure we also represent thte environment of the Stemm cell niche, we expanded to hamiltonian Space, so that that it is still Hermetian (lossless) while still capturing the environment in which the cells develop. Theoretically we can reverse the entire process from stem cell to cell specialisation, due to its unitary nature. 
 
 Plotting these in Hilbert space the similarities and differences 
 between concepts turn into visible geometry: as the query changes, the relative angles between concepts open and close, and that movement is the drift. 
