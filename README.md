@@ -12,7 +12,7 @@ We then prompt the machine. Over evolution time *t*, we watch the concepts under
 Δ_jk(t) = θ_jk(t) − θ_jk(0). 
 
 This drift, visible only because the system is complex
-and unitary, is the observable.
+and unitary, no data is lost, and the concepts spin is observable, and their relationships with other concepts. 
 
 ## Introduction 
 This project visualises concept drift in a HyperRAG system operating over simple medical datasets. 
